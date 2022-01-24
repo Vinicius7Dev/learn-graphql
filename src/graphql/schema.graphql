@@ -1,0 +1,23 @@
+# Criar o Schema seria como criar/definir as rotas
+
+# Não representa o usuário no banco de dados, mas sim como ele vai ser tratado nas requisições à API
+# A '!' representa que é um campo obrigatório
+type User {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+# Schema para buscar informações
+# A '!' DENTRO do vetor indica que todos os seus elementos deve ser do tipo User
+# Já a '!' FORA do vetor diz que é obrigatório o retorno de um vetor
+type Query {
+  users: [User!]!
+  user(id: ID!): User
+}
+
+# Schema para criar ou modificar informações
+type Mutation {
+  createUser(name: String!, email: String!): User
+  deleteUser(id: ID!): User
+}
