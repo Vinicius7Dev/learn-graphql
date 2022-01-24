@@ -1,2 +1,2 @@
-# learn-graphql
-Learn GraphQL
+# Learn GraphQL
+Learn GraphQL by RocketSeat

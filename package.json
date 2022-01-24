@@ -1,0 +1,15 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Vinicius7Dev/learn-graphql.git",
+  "author": "Vinícius Gabriel <68403363+Vinicius7Dev@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
